@@ -895,3 +895,329 @@ h3 {
 	-ms-transition-duration: 1s;
 	transition-duration: 1s;
 }
+
+
+@media only screen and (max-width: 960px) {
+	
+	.iphone{
+		left: -450px;
+		opacity: 1;
+		position: absolute;
+		top: -550px;
+	}
+
+	.iphone.animate-in{
+		left: 500px;
+		top: 50px;
+	}
+
+	.iphone.animate-out{
+		left: 1100px;
+		top: -400px;
+	}
+	.iphone-shadow {
+		left: 598px;
+		top: 520px;
+		position: absolute;
+	}
+
+	.iphone-shadow.animate-in {
+		left: 598px;
+		top: 520px;
+	}
+
+	.iphone-shadow.animate-out {
+		left: 598px;
+		top: 520px;
+	}
+	.intro {
+		position: absolute;
+		left: -450px;
+		top: -300px;
+		width: 290px;
+	}
+	.intro.animate-in {
+		left: 50px;
+		top: 200px;
+	}
+	.intro.animate-out {
+		left: 100px;
+		top: 250px;
+	}
+	.ipad {
+		left: -450px;
+		position: absolute;
+		top: 800px;
+	}
+	.ipad.animate-in {
+		left: 50px;
+		top: 50px;
+	}
+	.ipad.animate-out {
+		left: -800px;
+		top: 50px;
+	}
+
+	.ipad-shadow {
+		left: 30px;
+		top: 508px;
+	}
+
+	.ipad-shadow.animate-in {
+		left: 30px;
+		top: 508px;
+	}
+	.ipad-shadow.animate-out {
+		left: -800px;
+		top: 508px;
+	}
+	.slide2 {
+		left: 950px;
+		position: absolute;
+		top: 700px;
+		width: 260px;
+	}
+	.slide2.animate-in {
+		left: 450px;
+		top: 200px;
+	}
+	.slide2.animate-out {
+		left: 800px;
+		top: 250px;
+	}
+	.iphone2 {
+		left: 400px;
+		position: absolute;
+		top: -600px;
+		z-index: 3;
+	}
+	.iphone2.animate-in {
+		left: 300px;
+		top: 60px;
+	}
+	.iphone2.animate-out {
+		left: 600px;
+		top: 800px;
+	}
+	.iphone2-shadow {
+		position: absolute;
+		left: 298px;
+		top: 530px;
+	}
+	.iphone2-shadow.animate-in {
+		left: 298px;
+		top: 530px;
+	}
+	.iphone2-shadow.animate-out {
+		left: 298px;
+		top: 530px;
+	}
+	.iphone3-shadow {
+		position: absolute;
+		left: 400px;
+		top: 507px;
+	}
+	.iphone3-shadow.animate-in {
+		left: 400px;
+		top: 507px;
+	}
+	.iphone3-shadow.animate-out {
+		left: 400px;
+		top: 507px;
+	}
+	.iphone4-shadow {
+		position: absolute;
+		left: 475px;
+		top: 485px;
+	}
+	.iphone4-shadow.animate-in {
+		left: 475px;
+		top: 485px;
+	}
+	.iphone4-shadow.animate-out {
+		left: 475px;
+		top: 485px;
+	}
+	.iphone3 {
+		left: 400px;
+		top: -600px;
+		position: absolute;
+	}
+	.iphone3.animate-in {
+		left: 400px;
+		top: 60px;
+	}
+	.iphone3.animate-out {
+		left: 700px;
+		top: 800px;
+	}
+	.iphone4 {
+		left: 475px;
+		top: -600px;
+		position: absolute;
+		z-index: 1;
+	}
+	.iphone4.animate-in {
+		left: 475px;
+		top: 60px;
+	}
+	.iphone4.animate-out {
+		left: 800px;
+		top: 800px;
+	}
+	.slide3 {
+		position: absolute;
+		left: -800px;
+		top: 250px;
+		width: 250px;
+	}
+	.slide3.animate-in {
+		left: 50px;
+		top: 200px;
+	}
+	.slide3.animate-out {
+		left: 900px;
+		top: 250px;
+	}
+	
+}
+
+
+@media only screen and (max-width: 782px) {
+	
+	.iphone{
+		left: -450px;
+		opacity: 1;
+		position: absolute;
+		top: -550px;
+	}
+
+	.iphone.animate-in{
+		left: 385px;
+		top: 50px;
+	}
+
+	.iphone.animate-out{
+		left: 1100px;
+		top: -400px;
+	}
+	.iphone-shadow {
+		left: 322px;
+		top: 520px;
+		position: absolute;
+	}
+
+	.iphone-shadow.animate-in {
+		left: 300px;
+		top: 520px;
+	}
+
+	.iphone-shadow.animate-out {
+		left: 598px;
+		top: 520px;
+	}
+
+	
+}
+
+@media only screen and (max-width: 715px) {
+	
+	.iphone-shadow {
+		left: 372px;
+		top: 520px;
+		position: absolute;
+	}
+
+	.iphone-shadow.animate-in {
+		left: 372px;
+		top: 520px;
+	}
+
+	.iphone-shadow.animate-out {
+		left: 372px;
+		top: 520px;
+	}
+	
+	.iphone2 {
+		left: 400px;
+		position: absolute;
+		top: -600px;
+		z-index: 3;
+	}
+	.iphone2 {
+		display: none !important;
+	}
+
+	.iphone2-shadow {
+		display: none !important;
+	}
+	
+	.iphone3-shadow {
+		position: absolute;
+		left: 255px;
+		top: 507px;
+	}
+	.iphone3-shadow.animate-in {
+		left: 255px;
+		top: 507px;
+	}
+	.iphone3-shadow.animate-out {
+		left: 255px;
+		top: 507px;
+	}
+	.iphone4-shadow {
+		position: absolute;
+		left: 375px;
+		top: 485px;
+	}
+	.iphone4-shadow.animate-in {
+		left: 375px;
+		top: 485px;
+	}
+	.iphone4-shadow.animate-out {
+		left: 375px;
+		top: 485px;
+	}
+	.iphone3 {
+		left: 300px;
+		top: -600px;
+		position: absolute;
+	}
+	.iphone3.animate-in {
+		left: 265px;
+		top: 60px;
+	}
+	.iphone3.animate-out {
+		left: 700px;
+		top: 800px;
+	}
+	.iphone4 {
+		left: 405px;
+		top: -600px;
+		position: absolute;
+		z-index: 1;
+	}
+	.iphone4.animate-in {
+		left: 405px;
+		top: 60px;
+	}
+	.iphone4.animate-out {
+		left: 800px;
+		top: 800px;
+	}
+	.slide3 {
+		position: absolute;
+		left: -800px;
+		top: 250px;
+		width: 250px;
+	}
+	.slide3.animate-in {
+		left: 50px;
+		top: 200px;
+	}
+	.slide3.animate-out {
+		left: 900px;
+		top: 250px;
+	}
+	
+}
